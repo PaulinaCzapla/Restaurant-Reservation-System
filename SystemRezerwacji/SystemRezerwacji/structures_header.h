@@ -8,42 +8,66 @@
 #define MAX_L_NAME 20
 #define MAX_COMMENT 200
 #define MAX_PHONE_NUM 10
+#define DIFFERENCE 2
 
-typedef struct Restaurant 
+
+typedef struct Restaurant
 {
 	int table_number;
 	int seats;
 	struct Restaurant* prev;
 	struct Restaurant* next;
+	struct Date* date;
 
 } Restaurant;
 
-typedef struct Date_And_Hour 
+typedef struct Date
 {
-	int day;
-	int month;
-	int year;
-	char hour[MAX_HOUR];
+	struct tm* date;
+	struct Hour* hour;
+	struct Date* next;
 
-} Date_And_Hour;
+} Date;
 
-typedef struct Personal_Data 
+typedef struct Personal_Data
 {
 	char name[MAX_NAME];
 	char last_name[MAX_L_NAME];
 	char phone_number[MAX_PHONE_NUM];
+	char comment[MAX_COMMENT];
 
 } Personal_Data;
 
-typedef struct Reservations 
+typedef struct Hour
 {
-	int table_number;
-	int seats;
-	char comment[MAX_COMMENT];
-	struct Personal_Data *personal_data;
-	struct Date_And_Hour *date;
-	struct Reservations* next;
+	struct tm* hour;
+	int customers;
+	struct Hour* next;
+	struct Personal_Data* pdata;
 
-} Reservations;
+} Hour;
+
+typedef struct Position
+{
+	struct Restaurant* table;
+	struct Date* date;
+	struct Hour* hour;
+	bool definitive;
+} Position;
+//typedef struct Position
+//{
+//
+//};
+
+
+//typedef struct Reservations
+//{
+//	int table_number;
+//	int seats;
+//
+//	struct Date* date;
+//	struct Reservations* next;
+//
+//} Reservations;
 
 #endif
