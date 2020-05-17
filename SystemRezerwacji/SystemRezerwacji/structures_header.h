@@ -70,4 +70,104 @@ typedef struct Position
 //
 //} Reservations;
 
+
+
+//Date* DateNode(Restaurant* ptrTable, struct tm* time)
+//{
+//	Date* pHead = ptrTable->date;
+//	if (pHead == NULL)
+//	{
+//		Date* first = AddDateNode(NULL, time);
+//		ptrTable->date = first;
+//		return first;
+//	}
+//	else
+//	{
+//		Date* node = pHead;
+//		Date* prev = NULL;
+//		Date* tmpHead = pHead;
+//		bool is_added = false;
+//		while (pHead)
+//		{
+//			if (time->tm_year < pHead->date->tm_year)
+//			{
+//				node = AddDateNode(pHead, time);
+//				if (prev)
+//					prev->next = node;
+//				is_added = true;
+//				break;
+//			}
+//			if (time->tm_year > pHead->date->tm_year)
+//			{
+//				if (pHead->next == NULL)
+//				{
+//					node = AddDateNode(NULL, time);
+//					pHead->next = node;
+//					is_added = true;
+//					break;
+//				}
+//				else
+//				{
+//					prev = pHead;
+//					pHead = pHead->next;
+//					continue;
+//				}
+//			}
+//			if (time->tm_year == pHead->date->tm_year)
+//			{
+//
+//				if (time->tm_mon > pHead->date->tm_mon&& pHead->next == NULL)
+//				{
+//					node = AddDateNode(NULL, time);
+//					pHead->next = node;
+//					is_added = true;
+//					break;
+//				}
+//				else
+//				{
+//					prev = pHead;
+//					pHead = pHead->next;
+//					continue;
+//				}
+//				if (time->tm_mon < pHead->date->tm_mon)
+//				{
+//					node = AddDateNode(pHead, time);
+//					if (prev)
+//						prev->next = node;
+//					is_added = true;
+//					break;
+//				}
+//				if (time->tm_mon == pHead->date->tm_mon)
+//				{
+//					if (time->tm_mday <= pHead->date->tm_mday)
+//					{
+//						node = AddDateNode(pHead, time);
+//						if (prev)
+//							prev->next = node;
+//						is_added = true;
+//						break;
+//					}
+//					if (time->tm_mday > pHead->date->tm_mday&& pHead->next == NULL)
+//					{
+//						node = AddDateNode(NULL, time);
+//						pHead->next = node;
+//						is_added = true;
+//						break;
+//					}
+//
+//				}
+//				prev = pHead;
+//				pHead = pHead->next;
+//			}
+//		}
+//
+//		if (is_added == false) //dodawanie na koniec
+//		{
+//			node = AddDateNode(NULL, time);
+//			prev->next = node;
+//		}
+//		ptrTable->date = node;
+//		return node;
+//	}
+//}
 #endif
