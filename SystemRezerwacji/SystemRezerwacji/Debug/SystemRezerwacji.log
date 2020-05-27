@@ -1,10 +1,19 @@
 ﻿  functions.c
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): warning C4477: „fscanf_s”: ciąg formatu „%s” wymaga argumentu typu „unsigned int”, ale argument 7 ze zmienną liczbą argumentów ma typ „char *”
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : ten argument jest używany jako rozmiar bufora
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): warning C4477: „fscanf_s”: ciąg formatu „%s” wymaga argumentu typu „unsigned int”, ale argument 9 ze zmienną liczbą argumentów ma typ „char *”
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : ten argument jest używany jako rozmiar bufora
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): warning C4473: „fscanf_s”: przekazano niewystarczającą liczbę argumentów dla ciągu formatowania
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : symbole zastępcze i ich parametry oczekują 15 argumentów ze zmienną liczbą argumentów, ale podano następującą liczbę zmiennych argumentów: 10
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : brakujący argument 11 o zmiennej liczbie parametrów jest wymagany w ciągu formatu „%s”
-C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : ten argument jest używany jako rozmiar bufora
-  SystemRezerwacji.vcxproj -> C:\Users\pauli\Documents\GitHub\SystemRezerwacji\Debug\SystemRezerwacji.exe
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(150,8): warning C4013: niezdefiniowany "getch"; przy założeniu, że extern zwraca int
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(202,1): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(222,48): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(226,42): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(228,48): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(231,44): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(243,40): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(246,43): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(250,44): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(253,41): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(936,22): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(1597,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(1625,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(1655,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  lists.c
+  main.c
+  Generowanie kodu...
+  SystemRezerwacji.vcxproj -> C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\Debug\SystemRezerwacji.exe

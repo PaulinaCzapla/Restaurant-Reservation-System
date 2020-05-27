@@ -139,11 +139,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="functions.c" />
+    <ClCompile Include="lists.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="functions_header.h" />
-    <ClInclude Include="structures_header.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="lists.h" />
+    <ClInclude Include="structures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
