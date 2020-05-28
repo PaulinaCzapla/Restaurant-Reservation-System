@@ -1,0 +1,22 @@
+<<<<<<< Updated upstream:SystemRezerwacji/SystemRezerwacji/reservations.txt
+3 3 23 03 2020 12:30 Anna Kowalska 234234234 dieta bezglutenowa
+5 10 25 03 2020 15:30 Kasia Kowalska 234234444 danie bez pomidorów 
+=======
+1 2 22.06.20 12:00 3.00 Bzgtvr Ghptd 567567567 30 uktd 
+1 2 30.06.20 14:00 3.00 Texdltgwkt Mnebitg 888111444 25 uktd
+3 2 26.06.20 15:40 1.00 Cnlmrgt Hswhut 456456456 15 lmhebd wet wsbxvdt
+3 2 30.06.20 16:30 2.00 Ctwpbzt Enwxvdt 444556665 0 uktd
+4 3 23.06.20 15:00 2.00 Ytubtg Ghptvdb 678678678 0 sbfgx hzgbx wh mhkmn 
+4 4 28.06.20 14:30 1.00 Bzhk Fxpt 879765567 30 nvsnexgbx gt zenmxg
+4 3 01.08.20 00:30 2.00 Khftg Enuxvdb 645654654 10 uktd
+5 4 10.07.20 17:00 4.00 Dtfbe Ghphd 333444222 0 nkhwsbghpr mhkm b libxptgbx lmh etm 
+5 3 31.07.20 22:30 5.00 Hety Cxsbxkldb 454567678 30 uktd
+2 5 01.07.20 01:00 3.00 Pbdmhkbt Sprvbxldt 665566565 0 uktd
+2 5 12.07.20 12:40 2.00 Etnkt Dtdmnl 901901901 10 petlgt fnsrdt 
+8 5 01.07.20 01:20 2.00 Dkrlmrgt Mtuxet 333888999 25 uktd
+7 7 30.06.20 15:30 3.00 Phcvbxva Cnlmrg 332211454 20 uktd
+6 12 25.06.20 13:00 1.00 Ybebi Ctgxvdb 123123123 15 lixvctegx fxgn
+6 8 30.06.20 17:00 3.00 Dtvixk Dtvikhpldb 333000222 20 uktd
+6 10 12.07.20 20:30 4.00 Ftvbxc Bdlbgldb 456654456 0 2 lehfdb p dtswxc lsdetvx
+9 14 29.06.20 20:00 2.00 Dtkhe Ghpbvdb 678678678 30 lpbxvx gt lmhex b dpbtmr
+>>>>>>> Stashed changes:SystemRezerwacji/pliki testowe/reservations.txt

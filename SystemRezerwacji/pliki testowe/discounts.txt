@@ -1,0 +1,5 @@
+30 studencka
+10 klubowa
+20 seniorzy
+15 rodzinna
+25 dawcy krwi

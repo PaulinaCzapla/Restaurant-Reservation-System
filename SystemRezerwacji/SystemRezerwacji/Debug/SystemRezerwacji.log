@@ -1,4 +1,5 @@
 ﻿  functions.c
+<<<<<<< Updated upstream
 C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): warning C4477: „fscanf_s”: ciąg formatu „%s” wymaga argumentu typu „unsigned int”, ale argument 7 ze zmienną liczbą argumentów ma typ „char *”
 C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : ten argument jest używany jako rozmiar bufora
 C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): warning C4477: „fscanf_s”: ciąg formatu „%s” wymaga argumentu typu „unsigned int”, ale argument 9 ze zmienną liczbą argumentów ma typ „char *”
@@ -8,3 +9,20 @@ C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(17
 C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : brakujący argument 11 o zmiennej liczbie parametrów jest wymagany w ciągu formatu „%s”
 C:\Users\pauli\Documents\GitHub\SystemRezerwacji\SystemRezerwacji\functions.c(173,39): message : ten argument jest używany jako rozmiar bufora
   SystemRezerwacji.vcxproj -> C:\Users\pauli\Documents\GitHub\SystemRezerwacji\Debug\SystemRezerwacji.exe
+=======
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(150,8): warning C4013: niezdefiniowany "getch"; przy założeniu, że extern zwraca int
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(207,1): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(229,48): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(233,42): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(235,48): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(238,44): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(250,40): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(253,43): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(257,44): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(260,41): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(984,22): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(1646,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(1674,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\SystemRezerwacji\functions.c(1704,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  SystemRezerwacji.vcxproj -> C:\Users\pauli\Documents\GitHub\System-Rezerwacji-w-Restauracji\SystemRezerwacji\Debug\SystemRezerwacji.exe
+>>>>>>> Stashed changes
