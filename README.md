@@ -1,1 +1,1 @@
-# PK2
+# PK2 projekt zaliczeniowy
