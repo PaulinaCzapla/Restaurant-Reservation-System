@@ -17,9 +17,9 @@ Program miał zawierać:
 
 
 Oprócz tego program wykorzystuje zagadnienia
-• operacje wejścia/wyjścia;
-• dynamiczną alokację pamięci;
-• obsługę plików;
-• obsługę łańcuchów znakowych (C-string);
-• podział na pliki źródłowe i nagłówkowe.
+- operacje wejścia/wyjścia;
+- dynamiczną alokację pamięci;
+- obsługę plików;
+- obsługę łańcuchów znakowych (C-string);
+- podział na pliki źródłowe i nagłówkowe.
 
