@@ -1,7 +1,7 @@
 
 # Restaurant Reservation System
 
-######The restaurant reservation system is a console program, designed for restaurant employees. It has been implemented in the C language and has a self-implemented dynamic data structure.
+#### The restaurant reservation system is a console program, designed for restaurant employees. It has been implemented in the C language and has a self-implemented dynamic data structure.
 
 **Project assumptions:**
 - the program is protected against invalid data provided by the user;
